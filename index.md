@@ -6,7 +6,7 @@
 ---
 
 ## 🔖 Day 1: Introduction to Cybersecurity & Ethical Hacking  
-**📅 Date:** June 17, 2025  
+**📅 Date:** June 18, 2025  
 
 ---
 
