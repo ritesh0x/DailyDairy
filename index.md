@@ -67,4 +67,4 @@ These roles require skills in **networking, Linux, scripting, and security tools
 - Follow applicable **cyber laws** (e.g., IT Act 2000 in India)
 - Report vulnerabilities **responsibly and ethically**
 
-[👉 Go to Day 2 – Kali Linux & Linux Commands](day2.md)
+[👉 Go to Day 2 – Kali Linux & Linux Commands](Day2.md)
