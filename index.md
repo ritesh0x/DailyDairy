@@ -1,6 +1,6 @@
 # 🛡️ Cybersecurity Training Diary  
 **👤 Name:** Ritesh Kumar Gupta  
-**📅 Training Period:** June 2025 – [End Date]  
+**📅 Training Period:** 18 June 2025 – 18 July 2025 
 **🎯 Purpose:** To document my daily learning and progress during the Cybersecurity training program.
 
 ---
