@@ -1,15 +1,17 @@
-# 🔖 Day 3: Phishing Attack using CamPhish & Hack Camera  
-**📅 Date:** June 19, 2025  
+# 🔖 Day 3: Phishing Attack using CamPhish & Hack Camera
+
+**🗓️ Date:** June 20, 2025
 
 ---
 
 ### 🧠 Topics Covered:
-- Camera-based phishing attack using **Hack-Camera**
-- Using `git clone` to copy tools from GitHub
-- Giving script execution permission in Linux
-- Launching phishing attacks through the terminal
-- Real-world example: capturing webcam images using phishing
-- Awareness about **social engineering risks**
+
+* Camera-based phishing attack using **Hack-Camera**
+* Using `git clone` to copy tools from GitHub
+* Giving script execution permission in Linux
+* Launching phishing attacks through the terminal
+* Real-world example: capturing webcam images using phishing
+* Awareness about **social engineering risks**
 
 ---
 
@@ -22,72 +24,77 @@ Today I learned how phishing attacks can be executed using **webcam-based lures*
 ### ⚙️ Steps Performed:
 
 1. **Cloned the Hack-Camera tool**:
+
    ```bash
    git clone https://github.com/jaspreet-infosec/HACK-CAMERA.git
-Navigated to the tool's folder:
+   ```
 
-bash
-Copy
-Edit
-cd HACK-CAMERA
-ls
-Switched to root user:
+2. **Navigated to the tool's folder**:
 
-bash
-Copy
-Edit
-sudo su
-Gave execution permission to the script:
+   ```bash
+   cd HACK-CAMERA
+   ls
+   ```
 
-bash
-Copy
-Edit
-chmod +x hack_camera.sh
-Ran the script:
+3. **Switched to root user**:
 
-bash
-Copy
-Edit
-./hack_camera.sh
-Selected Option 3 (YouTube Video Phishing)
+   ```bash
+   sudo su
+   ```
 
-Entered YouTube video ID as prompted
+4. **Gave execution permission to the script**:
 
-Received phishing link, opened it in browser
+   ```bash
+   chmod +x hack_camera.sh
+   ```
 
-Browser asked for camera access
-→ When granted, it:
+5. **Ran the script**:
 
-Played the YouTube video to distract the victim
+   ```bash
+   ./hack_camera.sh
+   ```
 
-Secretly captured webcam images
+6. **Selected Option 3 (YouTube Video Phishing)**
 
-Sent images to attacker's terminal
+7. **Entered YouTube video ID** as prompted
 
-Saved images in the HACK-CAMERA folder
+8. **Received phishing link**, opened it in browser
 
-⚠️ Real-World Implications:
-This attack highlights how attackers exploit trust and curiosity:
+9. **Browser asked for camera access**
+   → When granted, it:
 
-Users often allow webcam access without thinking
+   * 🎥 Played the YouTube video to distract the victim
+   * 📸 Secretly captured webcam images
+   * 📩 Sent images to attacker's terminal
+   * 📂 Saved images in the HACK-CAMERA folder
 
-Phishing pages can be disguised as something innocent like a video
+---
 
-Images are captured without user knowledge
+### ⚠️ Real-World Implications:
 
-🧠 Key Learnings:
-git clone helps you download open-source tools from GitHub
+This attack highlights how attackers exploit **trust and curiosity**:
 
-Linux chmod +x is used to allow execution of .sh files
+* Users often allow webcam access without thinking
+* Phishing pages can be disguised as something innocent like a video
+* Images are captured without user knowledge
 
-Shell scripts can automate complex attacks
+---
 
-Social engineering is one of the most powerful tools in a hacker’s arsenal
+### 🧠 Key Learnings:
 
-🛠️ Tools Used:
-Hack-Camera GitHub tool
+* `git clone` helps you download open-source tools from GitHub
+* Linux `chmod +x` is used to allow execution of `.sh` files
+* Shell scripts can automate complex attacks
+* **Social engineering** is one of the most powerful tools in a hacker’s arsenal
 
-Linux Terminal (Kali)
+---
 
-Browser for phishing simulation
+### 🛠️ Tools Used:
 
+* **Hack-Camera** GitHub tool
+* **Linux Terminal (Kali)**
+* **Browser** for phishing simulation
+
+---
+
+[⬅️ Back to Day 2](Day2.md) | [➡️ Go to Day 4](Day4.md)
