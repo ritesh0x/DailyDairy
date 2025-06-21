@@ -62,8 +62,9 @@ I also explored different job roles in the field. Based on what I enjoy (problem
 These roles require skills in **networking, Linux, scripting, and security tools** — all of which I will be learning in the coming weeks.
 
 ---
-
 ### ⚖️ Legal & Ethical Guidelines:
 - Always work with **written permission**
 - Follow applicable **cyber laws** (e.g., IT Act 2000 in India)
 - Report vulnerabilities **responsibly and ethically**
+
+[👉 Go to Day 2 – Kali Linux & Linux Commands](day2.md)
