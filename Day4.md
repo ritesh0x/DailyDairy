@@ -207,11 +207,11 @@ bash
 
 ### 🛠 Tools Used:
 
-* *Zphisher, **ErisPhisher*
-* *Xerxes* (DNS attack)
-* *VirusTotal, **urlscan.io, **HaveIBeenPwned, **Censys.io, **Whois*
-* *Metasploitable, **Tenable Nessus*
-* *Web browsers, **Kali Linux Terminal*
+* *Zphisher, ErisPhisher*
+* *Xerxes (DNS attack)*
+* *VirusTotal, urlscan.io, HaveIBeenPwned, Censys.io, Whois*
+* *Metasploitable, Tenable Nessus*
+* *Web browsers, Kali Linux Terminal*
 
 ---
 
