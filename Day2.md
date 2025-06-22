@@ -1,5 +1,5 @@
 # 🔖 Day 2: Kali Linux Setup & Linux Fundamentals  
-**📅 Date:** June 18, 2025  
+**📅 Date:** June 19, 2025  
 
 ---
 
