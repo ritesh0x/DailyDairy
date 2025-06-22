@@ -52,4 +52,4 @@ After successfully setting up Kali Linux in **VirtualBox**, I completed the **Li
 - 🌐 **TryHackMe** for interactive Linux learning  
 - 🐧 **Kali Linux Terminal** for practicing commands
 
-[⬅️ Back to Day 1](index.md) | [➡️ Go to Day 3](day3.md)
+[⬅️ Back to Day 1](index.md) | [➡️ Go to Day 3](Day3.md)
