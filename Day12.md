@@ -39,18 +39,18 @@ On Day 12, I was introduced to the fundamental concept of **DevOps**—a blend o
 
 ---
 
-### 🛠️ Common DevOps Tools:
+### 🛠️ Tools Used by DevOps Engineers:
 
-| Category                 | Tools                              |
-| ------------------------ | ---------------------------------- |
-| Version Control          | Git, GitHub, GitLab                |
-| CI/CD Pipelines          | Jenkins, GitHub Actions, GitLab CI |
-| Configuration Management | Ansible, Puppet, Chef              |
-| Containerization         | Docker, Podman                     |
-| Container Orchestration  | Kubernetes, Docker Swarm           |
-| Infrastructure as Code   | Terraform, AWS CloudFormation      |
-| Monitoring & Logging     | Prometheus, Grafana, ELK Stack     |
-| Cloud Platforms          | AWS, Azure, Google Cloud           |
+| Tool                    | Purpose                                                      |
+| ----------------------- | ------------------------------------------------------------ |
+| **Kubernetes**          | Manages multiple container instances across clusters         |
+| **Ansible**             | Configuration management and automated software provisioning |
+| **Terraform**           | Infrastructure as Code (IaC) to deploy large-scale infra     |
+| **Docker**              | Containerization of applications                             |
+| **Jenkins**             | CI/CD pipeline automation                                    |
+| **Cloud Orchestration** | Automating cloud services, scaling, and deployment           |
+
+📁 **GitHub Reference for DevOps Tools:** [jaspreet-infosec/DevOps](https://github.com/jaspreet-infosec/DevOps)
 
 ---
 
