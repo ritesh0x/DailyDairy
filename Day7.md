@@ -8,9 +8,6 @@
 
 * Introduction to Wi-Fi deauthentication attacks
 * ESP8266 as a deauthentication tool
-* Setting up wlan0 interface for packet injection
-* Installing drivers for wlan0 compatibility
-* Performing Wi-Fi deauthentication attacks using hardware and software
 
 ---
 
@@ -23,43 +20,16 @@ On Day 7, I learned how to use the **ESP8266 NodeMCU microcontroller** to perfor
 ### 🛠️ Tools and Hardware Used:
 
 * **ESP8266 NodeMCU microcontroller**
-* **Kali Linux** with terminal access
-* **wlan0 Wi-Fi adapter** (monitor mode & packet injection capable)
-* **Deauther firmware** / tools like `airmon-ng`, `aireplay-ng`
-
 ---
 
 ### ✅ Steps Followed:
 
-#### 1. **Prepared the wlan0 Adapter**
-
-* Installed required drivers for monitor mode and packet injection.
-* Verified interface status:
-
-  ```bash
-  airmon-ng check kill
-  airmon-ng start wlan0
-  iwconfig
-  ```
-
-#### 2. **ESP8266 Setup**
+#### **ESP8266 Setup**
 
 * Flashed the **Wi-Fi Deauther firmware** onto the ESP8266.
 * Powered the module and connected to its access point.
 * Accessed the ESP8266 **web interface** via browser (default IP: 192.168.4.1).
 * Scanned for Wi-Fi networks, selected a target, and launched deauthentication attack.
-
-#### 3. **Wi-Fi Deauthentication (Software Method)**
-
-* Used Kali Linux terminal to perform deauth attacks manually:
-
-  ```bash
-  airmon-ng start wlan0
-  airodump-ng wlan0mon
-  aireplay-ng --deauth 100 -a <router-MAC> wlan0mon
-  ```
-
----
 
 ### 🧠 Key Learnings:
 
